@@ -1,0 +1,20 @@
+// app global css in SCSS form
+@font-face {
+  font-family: Questrial;
+  src: url(./fonts/Questrial-Regular.ttf);
+}
+@font-face {
+  font-family: ArchitectsDaughter;
+  src: url(./fonts/ArchitectsDaughter-Regular.ttf);
+}
+
+// declare a class which applies it
+* {
+  font-family: 'Questrial';
+}
+.hand-police {
+  font-family: 'ArchitectsDaughter' !important;
+}
+
+@import "./color.scss";
+

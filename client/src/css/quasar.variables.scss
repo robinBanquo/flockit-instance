@@ -1,0 +1,60 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary   : #1976D2;
+$secondary : #26A69A;
+$accent    : #9C27B0;
+
+$dark      : #1D1D1D;
+
+$positive  : #21BA45;
+$negative  : #C10015;
+$info      : #31CCEC;
+$warning   : #F2C037;
+
+//dark
+$main-bg: #263238;
+$contrasted-bg: #1E272C;
+$contrasted-plus-bg: #1B2529;
+$contrasted-minus-bg: #222b31;
+$light-bg : #2E3C43 ;
+$lighter-bg: #364c50;
+$main-color: #C3CEE3;
+$plus-color: #ffffff;
+$focus-color: #E79627;
+$blue-highlight-color: #165261;
+$link-color: #639dad;
+$minus-color: #7d7f81;
+$info-color: #7A8387;
+$danger-color: #711030;
+$danger-text: #d21e58;
+$grey: #46525b;
+
+//light
+$main-bg-light: #ffffff;
+$contrasted-bg-light: #edf0f4;
+$contrasted-plus-bg-light: #e5e7ea;
+$contrasted-minus-bg-light: #f3f5f8;
+$light-bg-light : #f8f9fb;
+$lighter-bg-light: #f9f9fb;
+$main-color-light: #263238;
+$plus-color-light: #1E272C;
+$focus-color-light: #E79627;
+$blue-highlight-color-light: #165261;
+$link-color-light: #639dad;
+$minus-color-light: #222b31;
+$info-color-light: #364c50;
+$danger-color-light: #d21e58;
+$danger-text-light: #711030;
+$grey-light: #46525b;

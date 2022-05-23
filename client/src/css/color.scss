@@ -1,0 +1,141 @@
+@import "./quasar.variables.scss";
+
+.body--dark{
+  .main-bg{
+    background-color: $main-bg;
+  }
+  .contrasted-bg{
+    background-color: $contrasted-bg;
+  }
+  .contrasted-plus-bg{
+    background-color: $contrasted-plus-bg;
+  }
+  .light-bg{
+    background-color: $light-bg ;
+  }
+  .lighter-bg{
+    background-color:$lighter-bg;
+  }
+  .focus-bg{
+    background-color: $focus-color ;
+  }
+
+  .main-color, .main-color *{
+    color: $main-color;
+  }
+  .plus-color, .plus-color *{
+    color: $plus-color;
+  }
+  .focus-color, .focus-color *{
+    color: $focus-color;
+  }
+  .minus-color, .minus-color *{
+    color: $minus-color;
+  }
+  .info-color, .info-color *{
+    color: $info-color;
+  }
+  .contrasted-color{
+    color: $contrasted-bg !important;
+  }
+
+  .focus-border{
+    border: 2px solid $focus-color;
+  }
+  .blue-highlight-border{
+    border: 2px solid $blue-highlight-color;
+  }
+  .backdrop{
+    background-color: $contrasted-bg;
+  }
+  .danger-bg{
+    background-color: $danger-color;
+  }
+  .danger-color{
+    color: $danger-text !important;
+  }
+
+  .gradiant {
+    background: linear-gradient(45deg, $light-bg 0%, $contrasted-bg 100%);
+  }
+
+  .gradiant-dark {
+    background: linear-gradient(45deg, $main-bg 0%, $contrasted-bg 100%);
+  }
+  .meiumGradiant{
+    background: linear-gradient(45deg, $light-bg 0%, $main-bg 100%);
+  }
+  .gradiantLight {
+    background: linear-gradient(45deg, $lighter-bg 0%, $main-bg 100%);
+  }
+}
+
+.body--light{
+  .main-bg{
+    background-color: $main-bg-light;
+  }
+  .contrasted-bg{
+    background-color: $contrasted-bg-light;
+  }
+  .contrasted-plus-bg{
+    background-color: $contrasted-plus-bg-light;
+  }
+  .light-bg{
+    background-color: $light-bg-light ;
+  }
+  .lighter-bg{
+    background-color:$lighter-bg-light;
+  }
+  .focus-bg{
+    background-color: $focus-color-light ;
+  }
+
+  .main-color, .main-color *{
+    color: $main-color-light;
+  }
+  .plus-color, .plus-color *{
+    color: $plus-color-light;
+  }
+  .focus-color, .focus-color *{
+    color: $focus-color-light;
+  }
+  .minus-color, .minus-color *{
+    color: $minus-color-light;
+  }
+  .info-color, .info-color *{
+    color: $info-color-light;
+  }
+  .contrasted-color{
+    color: $contrasted-bg-light !important;
+  }
+
+  .focus-border{
+    border: 2px solid $focus-color-light;
+  }
+  .blue-highlight-border{
+    border: 2px solid $blue-highlight-color-light;
+  }
+  .backdrop{
+    background-color: $contrasted-bg-light;
+  }
+  .danger-bg{
+    background-color: $danger-color-light;
+  }
+  .danger-color{
+    color: $danger-text-light !important;
+  }
+
+  .gradiant {
+    background: linear-gradient(45deg, $main-bg-light 0%, $contrasted-bg-light 100%);
+  }
+
+  .gradiant-dark {
+    background: linear-gradient(45deg, $main-bg-light 0%, $contrasted-bg-light 100%);
+  }
+  .meiumGradiant{
+    background: linear-gradient(45deg, $light-bg-light 0%, $main-bg-light 100%);
+  }
+  .gradiantLight {
+    background: linear-gradient(45deg, $lighter-bg-light 0%, $main-bg-light 100%);
+  }
+}
