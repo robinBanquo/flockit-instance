@@ -4,15 +4,15 @@
   </div>
   <div class="titleContainer main-color">
     <div class="flockitTitle">
-      <h1 class="hand-police">Flockit</h1>
-      <h5>{{ $t('flockitDescription') }}</h5>
+      <h1 class="hand-police text-h3 plus-color">Flockit</h1>
+      <h6 class="focus-color">{{ $t('flockitDescription') }}</h6>
     </div>
 
       <q-card flat class="instanceInfo contrasted-bg">
         <q-card-section>
-          <div class="text-h6 hand-police" >{{instanceName}}</div>
+          <div class="text-h4 hand-police plus-color" >{{instanceName}}</div>
         </q-card-section>
-        <q-card-section class="q-pt-none">
+        <q-card-section class="q-pt-none text-h6">
           {{instanceDescription}}
         </q-card-section>
       </q-card>
@@ -56,10 +56,10 @@ export default {
     .instanceInfo{
       transition: left 0.5s ease-in-out ;
       position:relative;
-      left:50px;
+      left:5vw;
       max-width: calc(100vw - 40px);
       padding-left: 15px;
-     // border-left: 5px solid $focus-color;
+      border-left: 5px solid $focus-color;
       h3{
         font-weight: lighter;
       }
@@ -68,7 +68,7 @@ export default {
   .titleContainer:hover {
     .instanceInfo{
       opacity: 1;
-      left: 60px !important;
+      left: 6vw !important;
     }
   }
 
@@ -83,7 +83,7 @@ export default {
     height: auto;
     padding: 50px 50px 50px 50px;
     max-width: 80%;
-    width: calc(100vh - 64px);
+    width: calc(80vh - 64px);
     position: absolute;
     right: 0;
     bottom:0;

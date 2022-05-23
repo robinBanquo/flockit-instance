@@ -1,5 +1,10 @@
 <template>
-  <div><q-toggle v-model="value" @click="modeToggle" label="dark" /></div>
+  <div>
+    <q-toggle v-model="value" @click="modeToggle" class="main-color"/>
+    <q-tooltip>
+      {{ value ? $t('darkMode') : $t('lightMode')  }}
+    </q-tooltip>
+  </div>
 </template>
 
 <script>

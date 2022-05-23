@@ -1,4 +1,6 @@
 {
   "flockitDescription": "Modular, decentralized and encrypted platform of organization and meeting for collectives and non profit organisations",
-  "success": "Action was successful"
+  "success": "Action was successful",
+  "darkMode": "switch to light mode",
+  "lightMode": "switch to dark mode"
 }

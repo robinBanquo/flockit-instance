@@ -7,6 +7,7 @@
     emit-value
     map-options
     options-dense
+    label-color="main-color"
   />
 </template>
 

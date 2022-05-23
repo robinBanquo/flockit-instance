@@ -1,10 +1,7 @@
 <template>
-  <q-header elevated>
+  <q-header elevated reveal class="contrasted-bg header">
     <q-toolbar>
-      <q-toolbar-title>
-        Flockit
-      </q-toolbar-title>
-
+      <q-toolbar-title class="hand-police main-color">Flockit</q-toolbar-title>
       <div><langButton/></div>
       <dark-mode-button/>
     </q-toolbar>

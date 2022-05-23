@@ -1,4 +1,6 @@
 {
   "flockitDescription": "plateforme modulaire, décentralisée et chiffrée d'organisation et de mise en lien pour les collectifs et les associations",
-  "success": "Action was successful"
+  "success": "Action was successful",
+  "darkMode": "passer en theme clair",
+  "lightMode": "passer en theme sombre"
 }
