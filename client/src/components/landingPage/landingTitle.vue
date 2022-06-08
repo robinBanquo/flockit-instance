@@ -4,16 +4,16 @@
   </div>
   <div class="titleContainer main-color">
     <div class="flockitTitle">
-      <h1 class="hand-police text-h3 plus-color">Flockit</h1>
+      <h1 class="hand-police text-h2 r">Flockit</h1>
       <h6 class="focus-color">{{ $t('flockitDescription') }}</h6>
     </div>
 
       <q-card flat class="instanceInfo contrasted-bg">
         <q-card-section>
-          <div class="text-h4 hand-police plus-color" >{{instanceName}}</div>
+          <div class="text-h4 hand-police " >{{instanceName}}</div>
         </q-card-section>
-        <q-card-section class="q-pt-none text-h6">
-          {{instanceDescription}}
+        <q-card-section class="q-pt-none ">
+          <p>{{instanceDescription}}</p>
         </q-card-section>
       </q-card>
 
@@ -51,7 +51,8 @@ export default {
     z-index: 4;
     margin: 15vh auto 122px 30px;
     h1{
-      font-size: 9vh ;
+      font-size: 10vh;
+      margin: 20px 0;
     }
     .instanceInfo{
       transition: left 0.5s ease-in-out ;

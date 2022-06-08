@@ -17,12 +17,11 @@ import { useI18n } from 'vue-i18n'
 export default {
   setup () {
     const { locale } = useI18n({ useScope: 'global' })
-
     return {
       locale,
       localeOptions: [
-        { value: 'en-US', label: 'EN' },
-        { value: 'fr', label: 'FR' }
+        { value: 'fr-FR', label: 'FR' },
+        { value: 'en-US', label: 'EN' }
       ]
     }
   }

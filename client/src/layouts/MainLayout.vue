@@ -16,6 +16,11 @@ export default defineComponent({
   components: {
   },
   setup () {
+  },
+  data () {
+    console.log(this.$q.lang.getLocale())
+    this.$q.lang.set('fr') //  this.$q.lang.getLocale())
+    return {}
   }
 })
 </script>

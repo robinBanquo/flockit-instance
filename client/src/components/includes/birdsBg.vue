@@ -31,7 +31,7 @@ export default {
     iframe{
       border:none;
       width: 100%;
-      height: 100%;
+      height: calc(100% - 50px);
       html, body, .model{
         width: 100%;
         height: 100%;

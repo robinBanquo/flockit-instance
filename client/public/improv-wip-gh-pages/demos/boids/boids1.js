@@ -64,10 +64,10 @@ function Boid(config){
 	// Graphics & update graphics
 	// draw a spaceship
 	self.graphics = model.polygon([
-		17,0,
-		-17,13,
-		-13,0,
-		-17,-13
+    16,0,
+    -16,12,
+    -12,0,
+    -16,-12
 	]).attr({
 		fill: "#c0bec6"
 	});

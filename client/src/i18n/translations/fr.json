@@ -2,5 +2,15 @@
   "flockitDescription": "plateforme modulaire, décentralisée et chiffrée d'organisation et de mise en lien pour les collectifs et les associations",
   "success": "Action was successful",
   "darkMode": "passer en theme clair",
-  "lightMode": "passer en theme sombre"
+  "lightMode": "passer en theme sombre",
+  "encrypted": "Chiffré end-to-end",
+  "encryptedInfo": "L'ensemble des contenus partagés par les équipes de chaque projet ou conversation sont chiffrés coté client et ne sont pas accessibles même pour les administrateurs de la plate-forme. Nous poussons le chiffrement jusqu' à rendre impossible de savoir qui participe à quel projet ou conversation",
+  "modular" : "Modulaire",
+  "modularInfo" : "Des outils de collaborations variés a sélectionner pour correspondre au plus près des besoins de votre projet ou association. Tableurs interactifs, cartes en temps réel, agenda, partage de fichier... et la possibilité de créer des modules poussés et complexe : gestion de stock ou de planning d'equipe, comptabilité, etc... dévellopé pour l'ensemble de la communauté ou juste sur votre instance.",
+  "decentralized": "Décentralisée",
+  "decentralizedInfo": "Un noyau central géré par notre équipe afin d'autentifier les utilisateurs et leur permettre de se connecter depuis n'importe quel noeud du réseau, et un ensemble d'instances pour héberger les données des projets, modder la plateforme au plus près des besoins, tout en permettant la mise en lien des utilisateurs et des projets de toutes les instances",
+  "free" : "Libre et gratuit",
+  "freeInfo": "Une plate-forme entièrement gratuite afin de promouvoir des initiatives non marchandes. elle sera financée par vos dons et par le fait de facturer aux projets qui le désireront la création ou l'adaptation précise a leurs besoins de modules très spécifiques. l'ensemble des developements réalisés dans ce cadre sera ensuite publié pour tout les utilisateurs afin que le financement des uns puisse bénéficier à tous.",
+  "anonymous": "Anonymité et respect des données",
+  "anonymousInfo": "Afin de garantir un maximum de confidentialité pour permettre à des initiatives militantes de bénéficier des services de Flockit, nous attachons un grand soin de n'utiliser que le strict minimum de données personnelles, aucun emaail n'est requis, un pseudo, un password fort, et c'est parti."
 }

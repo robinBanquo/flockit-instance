@@ -11,10 +11,18 @@
 // declare a class which applies it
 * {
   font-family: 'Questrial';
+  p{
+    font-size: larger;
+  };
 }
 .hand-police {
-  font-family: 'ArchitectsDaughter' !important;
+  font-family: 'ArchitectsDaughter', sans-serif !important;
 }
-
+.small-text{
+  font-size: small;
+}
+.q-btn{
+  min-width: 160px;
+}
 @import "./color.scss";
 
