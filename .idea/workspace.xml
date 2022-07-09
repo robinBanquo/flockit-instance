@@ -34,7 +34,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/banquo/Bureau/flockit-instance/client/public/icons&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -75,7 +75,15 @@
       <workItem from="1654242990710" duration="2317000" />
       <workItem from="1654500923188" duration="1313000" />
       <workItem from="1654587918955" duration="1965000" />
-      <workItem from="1654674578774" duration="6702000" />
+      <workItem from="1654674578774" duration="10579000" />
+      <workItem from="1654767042087" duration="599000" />
+      <workItem from="1655111310359" duration="3721000" />
+      <workItem from="1655278219599" duration="6903000" />
+      <workItem from="1655805325650" duration="2240000" />
+      <workItem from="1656064972809" duration="599000" />
+      <workItem from="1656754193271" duration="3503000" />
+      <workItem from="1656904620482" duration="599000" />
+      <workItem from="1657345122647" duration="599000" />
     </task>
     <servers />
   </component>

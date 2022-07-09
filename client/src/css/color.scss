@@ -122,8 +122,21 @@
       color: $focus-color !important;
 
     }
-
     border: 2px solid $focus-color !important;
+  }
+
+  .btnFocus {
+    border: 3px solid $focus-color;
+    font-size: 120%;
+    position: absolute;
+    bottom: -75px;
+    left: -5px;
+    background-color: transparent;
+    transition: color 0.5s, background-color 0.5s;
+    &:hover{
+
+      background-color: $contrasted-bg;
+    }
   }
 }
 
@@ -241,6 +254,19 @@
     }
     color: $focus-color-light !important;
     border: 2px solid $focus-color-light !important;
+  }
+  .btnFocus {
+    border: 3px solid $focus-color;
+    font-size: 120%;
+    position: absolute;
+    bottom: -75px;
+    left: -5px;
+    background-color: transparent;
+    transition: color 0.5s, background-color 0.5s;
+    &:hover{
+
+      background-color: $contrasted-bg-light;
+    }
   }
 }
 

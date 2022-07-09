@@ -8,16 +8,16 @@
       <h6 class="focus-color">{{ $t('flockitDescription') }}</h6>
     </div>
 
-      <q-card flat class="instanceInfo contrasted-bg">
-        <q-card-section>
-          <div class="text-h4 hand-police " >{{instanceName}}</div>
-        </q-card-section>
-        <q-card-section class="q-pt-none ">
-          <p>{{instanceDescription}}</p>
-        </q-card-section>
-      </q-card>
+    <q-card flat class="instanceInfo contrasted-bg">
+      <q-card-section>
+        <div class="text-h4 hand-police " >{{instanceName}}</div>
+      </q-card-section>
+      <q-card-section class="q-pt-none ">
+        <p>{{instanceDescription}}</p>
 
-      <a v-if="!currentUserId" href="/login" class="center-align waves-effect waves-light btn-large focus-color "><i class=" material-icons left">account_circle</i>{{$t('signIn')}}</a>
+      </q-card-section>
+      <q-btn v-if="!currentUserId" class="btnFocus focus-color" icon="account_circle" size="xl" :label="$t('signIn')" to="/signin" />
+    </q-card>
 
   </div>
 </template>
@@ -31,7 +31,7 @@ export default {
   },
   data () {
     return {
-      currentUserId: 'null'
+      currentUserId: null
     }
   },
   computed: {
